@@ -13,7 +13,7 @@
 `$git clone https://github.com/jordangumm/metago_demo.git`
 
 ## 3. Build Metago Demo Simulated Metagenome
-`$cd metago_demo && ./build`
+`$cd metago_demo && ./build.sh`
 
 ## 4. Quality Control
 `$metago -o \<path_to_metago_demo\>/output/01_QC qc --sample \<path_to_metago_demo\>/genomes/final`
