@@ -10,4 +10,7 @@
 `$source /nfs/turbo/lsa-duhaimem/devel/gumm/workflows/metaGO/dependencies/miniconda/bin/activate`
 
 ## 2. Download Metago Demo
-`$git clone `
+`$git clone https://github.com/jordangumm/metago_demo.git`
+
+## 3. Build Metago Demo Simulated Metagenome
+`$cd metago_demo && ./build`
