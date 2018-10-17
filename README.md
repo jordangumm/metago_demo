@@ -14,3 +14,6 @@
 
 ## 3. Build Metago Demo Simulated Metagenome
 `$cd metago_demo && ./build`
+
+## 4. Run Quality Control
+`metago -o \<path_to_metago_demo\>/output/01_QC qc --sample \<path_to_metago_demo\>/genomes/final`
